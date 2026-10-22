@@ -79,11 +79,11 @@ Below is an exhaustive comparison of leading commercial PDF SaaS platforms and c
 
 ## 🚀 Open-Source GitHub Projects (Ranked by Stars)
 
-Every repository below is an active open-source project, **ranked strictly by GitHub star count in descending order**. Star badges link directly to each project's stargazers community.
+Every repository below is an active open-source project, **ranked strictly by GitHub Stars_Count in descending order**. Stars_Badges link directly to each project's stargazers community.
 
 ---
 
-### 1. [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) [![GitHub stars](https://img.shields.io/github/stars/Stirling-Tools/Stirling-PDF?style=social&color=white)](https://github.com/Stirling-Tools/Stirling-PDF/stargazers)
+### 1. [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) [![GitHub_Stars](https://img.shields.io/github/stars/Stirling-Tools/Stirling-PDF?style=social&color=white)](https://github.com/Stirling-Tools/Stirling-PDF/stargazers)
 - **Primary Focus**: Self-Hosted Web PDF Viewer, Editor &amp; Utility Suite
 - **License**: GPL-3.0 | **Stack**: Java, Spring Boot, Web Components, Docker
 - **Overview**: The #1 open-source PDF application on GitHub. A complete self-hosted web-based application allowing you to view, split, merge, convert, watermark, redact, sign, and OCR PDFs securely in a private container without sending data to external SaaS clouds.
@@ -91,7 +91,7 @@ Every repository below is an active open-source project, **ranked strictly by Gi
 
 ---
 
-### 2. [PDF.js](https://github.com/mozilla/pdf.js) [![GitHub stars](https://img.shields.io/github/stars/mozilla/pdf.js?style=social&color=white)](https://github.com/mozilla/pdf.js/stargazers)
+### 2. [PDF.js](https://github.com/mozilla/pdf.js) [![GitHub_Stars](https://img.shields.io/github/stars/mozilla/pdf.js?style=social&color=white)](https://github.com/mozilla/pdf.js/stargazers)
 - **Primary Focus**: Universal HTML5 &amp; JavaScript PDF Rendering Engine
 - **License**: Apache-2.0 | **Stack**: JavaScript, HTML5 Canvas, WebAssembly
 - **Overview**: The foundational standard for browser-native PDF parsing and rendering, built and maintained by Mozilla. It directly powers Firefox's built-in PDF viewer and offers a modular three-tier architecture (Core parser, Display renderer, and complete Viewer UI) embeddable via CDN or npm into any web app.
@@ -99,7 +99,7 @@ Every repository below is an active open-source project, **ranked strictly by Gi
 
 ---
 
-### 3. [KOReader](https://github.com/koreader/koreader) [![GitHub stars](https://img.shields.io/github/stars/koreader/koreader?style=social&color=white)](https://github.com/koreader/koreader/stargazers)
+### 3. [KOReader](https://github.com/koreader/koreader) [![GitHub_Stars](https://img.shields.io/github/stars/koreader/koreader?style=social&color=white)](https://github.com/koreader/koreader/stargazers)
 - **Primary Focus**: Document &amp; Ebook Viewer for E-Ink, Mobile &amp; Desktop
 - **License**: AGPL-3.0 | **Stack**: Lua, C, SDL, MuPDF engine
 - **Overview**: A versatile document and ebook reading engine built for E-Ink devices (Kindle, Kobo, PocketBook), Android, and desktop Linux. Features smart multi-column text reflow, OCR dictionary lookups, page margin cropping, high-contrast dark modes, and deep Calibre library integration.
@@ -107,7 +107,7 @@ Every repository below is an active open-source project, **ranked strictly by Gi
 
 ---
 
-### 4. [SumatraPDF](https://github.com/sumatrapdfreader/sumatrapdf) [![GitHub stars](https://img.shields.io/github/stars/sumatrapdfreader/sumatrapdf?style=social&color=white)](https://github.com/sumatrapdfreader/sumatrapdf/stargazers)
+### 4. [SumatraPDF](https://github.com/sumatrapdfreader/sumatrapdf) [![GitHub_Stars](https://img.shields.io/github/stars/sumatrapdfreader/sumatrapdf?style=social&color=white)](https://github.com/sumatrapdfreader/sumatrapdf/stargazers)
 - **Primary Focus**: Ultra-Fast, Minimalist Windows Desktop Document Reader
 - **License**: AGPL-3.0 | **Stack**: C++, C, MuPDF engine, Win32 API
 - **Overview**: The undisputed lightweight champion on Windows. Opens massive 1,000+ page documents almost instantaneously with near-zero memory footprint. Supports PDF, EPUB, MOBI, Comic Books (CBZ/CBR), XPS, and DjVu. Offers a zero-install portable executable with customizable hotkeys and LaTeX SyncTeX support.
@@ -115,7 +115,7 @@ Every repository below is an active open-source project, **ranked strictly by Gi
 
 ---
 
-### 5. [react-pdf (Renderer)](https://github.com/diegomura/react-pdf) [![GitHub stars](https://img.shields.io/github/stars/diegomura/react-pdf?style=social&color=white)](https://github.com/diegomura/react-pdf/stargazers)
+### 5. [react-pdf (Renderer)](https://github.com/diegomura/react-pdf) [![GitHub_Stars](https://img.shields.io/github/stars/diegomura/react-pdf?style=social&color=white)](https://github.com/diegomura/react-pdf/stargazers)
 - **Primary Focus**: React Component-Based PDF Generation &amp; Viewing
 - **License**: MIT | **Stack**: React, TypeScript, Yoga Layout, PDFKit
 - **Overview**: Declarative framework allowing developers to write React components (`<Document />`, `<Page />`, `<Text />`) that render high-fidelity, printable PDF documents in both browser and Node.js environments.
@@ -123,7 +123,7 @@ Every repository below is an active open-source project, **ranked strictly by Gi
 
 ---
 
-### 6. [Xournal++](https://github.com/xournalpp/xournalpp) [![GitHub stars](https://img.shields.io/github/stars/xournalpp/xournalpp?style=social&color=white)](https://github.com/xournalpp/xournalpp/stargazers)
+### 6. [Xournal++](https://github.com/xournalpp/xournalpp) [![GitHub_Stars](https://img.shields.io/github/stars/xournalpp/xournalpp?style=social&color=white)](https://github.com/xournalpp/xournalpp/stargazers)
 - **Primary Focus**: Handwritten Note-Taking &amp; Stylus PDF Annotation
 - **License**: GPL-2.0 | **Stack**: C++, GTK+ 3, Poppler
 - **Overview**: An open-source handwriting notetaking app with first-class PDF annotation. Delivers pressure-sensitive stylus support for Wacom and touch displays, geometric shape recognition, LaTeX formula rendering, layered annotation management, and clean PDF exports.
@@ -131,7 +131,7 @@ Every repository below is an active open-source project, **ranked strictly by Gi
 
 ---
 
-### 7. [react-pdf (Viewer)](https://github.com/wojtekmaj/react-pdf) [![GitHub stars](https://img.shields.io/github/stars/wojtekmaj/react-pdf?style=social&color=white)](https://github.com/wojtekmaj/react-pdf/stargazers)
+### 7. [react-pdf (Viewer)](https://github.com/wojtekmaj/react-pdf) [![GitHub_Stars](https://img.shields.io/github/stars/wojtekmaj/react-pdf?style=social&color=white)](https://github.com/wojtekmaj/react-pdf/stargazers)
 - **Primary Focus**: React Wrapper for Seamless PDF.js Embedding
 - **License**: MIT | **Stack**: React, TypeScript, PDF.js
 - **Overview**: Provides lightweight React components that display PDF documents as easily as regular images. Decouples the low-level imperative PDF.js API into clean React props (`file`, `pageNumber`, `scale`, `rotate`), allowing custom UI creation.
@@ -139,7 +139,7 @@ Every repository below is an active open-source project, **ranked strictly by Gi
 
 ---
 
-### 8. [Sioyek](https://github.com/ahrm/sioyek) [![GitHub stars](https://img.shields.io/github/stars/ahrm/sioyek?style=social&color=white)](https://github.com/ahrm/sioyek/stargazers)
+### 8. [Sioyek](https://github.com/ahrm/sioyek) [![GitHub_Stars](https://img.shields.io/github/stars/ahrm/sioyek?style=social&color=white)](https://github.com/ahrm/sioyek/stargazers)
 - **Primary Focus**: Academic Research Paper &amp; Technical Textbook Reader
 - **License**: GPL-3.0 | **Stack**: C++, Qt, MuPDF
 - **Overview**: Custom-engineered for academic reading. Intelligently identifies references, equations, and figures, allowing jump previews in floating sub-windows without losing your reading location. Features bi-directional LaTeX SyncTeX integration, smart bookmarks, portal jumps, and Vim-inspired navigation.
@@ -147,7 +147,7 @@ Every repository below is an active open-source project, **ranked strictly by Gi
 
 ---
 
-### 9. [pdfarranger](https://github.com/pdfarranger/pdfarranger) [![GitHub stars](https://img.shields.io/github/stars/pdfarranger/pdfarranger?style=social&color=white)](https://github.com/pdfarranger/pdfarranger/stargazers)
+### 9. [pdfarranger](https://github.com/pdfarranger/pdfarranger) [![GitHub_Stars](https://img.shields.io/github/stars/pdfarranger/pdfarranger?style=social&color=white)](https://github.com/pdfarranger/pdfarranger/stargazers)
 - **Primary Focus**: Graphical Drag-and-Drop PDF Page Manager &amp; Viewer
 - **License**: GPL-3.0 | **Stack**: Python, GTK+ 3, pikepdf / PyPDF
 - **Overview**: An intuitive, lightweight desktop application designed to visually display PDF page thumbnails, rearrange page sequences, split, merge, crop, rotate, and duplicate pages with quick keyboard shortcuts.
@@ -155,7 +155,7 @@ Every repository below is an active open-source project, **ranked strictly by Gi
 
 ---
 
-### 10. [pdfme](https://github.com/pdfme/pdfme) [![GitHub stars](https://img.shields.io/github/stars/pdfme/pdfme?style=social&color=white)](https://github.com/pdfme/pdfme/stargazers)
+### 10. [pdfme](https://github.com/pdfme/pdfme) [![GitHub_Stars](https://img.shields.io/github/stars/pdfme/pdfme?style=social&color=white)](https://github.com/pdfme/pdfme/stargazers)
 - **Primary Focus**: Web-Based WYSIWYG Template Designer, Viewer &amp; Generator
 - **License**: MIT | **Stack**: TypeScript, React, pdf-lib
 - **Overview**: A modern, lightweight PDF viewer and visual template designer. Enables drag-and-drop document design, programmatic JSON-based generation, barcode rendering, and instant browser previewing.
@@ -163,7 +163,7 @@ Every repository below is an active open-source project, **ranked strictly by Gi
 
 ---
 
-### 11. [Embed PDF Viewer](https://github.com/embedpdf/embed-pdf-viewer) [![GitHub stars](https://img.shields.io/github/stars/embedpdf/embed-pdf-viewer?style=social&color=white)](https://github.com/embedpdf/embed-pdf-viewer/stargazers)
+### 11. [Embed PDF Viewer](https://github.com/embedpdf/embed-pdf-viewer) [![GitHub_Stars](https://img.shields.io/github/stars/embedpdf/embed-pdf-viewer?style=social&color=white)](https://github.com/embedpdf/embed-pdf-viewer/stargazers)
 - **Primary Focus**: Framework-Agnostic Embeddable Web PDF Viewer
 - **License**: MIT | **Stack**: TypeScript, Web Components, PDF.js
 - **Overview**: A plug-and-play modern PDF viewing component that easily integrates with vanilla JavaScript, Vue, React, Angular, and Svelte projects, sporting clean mobile-ready toolbars and smooth page rendering.
@@ -171,7 +171,7 @@ Every repository below is an active open-source project, **ranked strictly by Gi
 
 ---
 
-### 12. [KillerPDF](https://github.com/SteveTheKiller/KillerPDF) [![GitHub stars](https://img.shields.io/github/stars/SteveTheKiller/KillerPDF?style=social&color=white)](https://github.com/SteveTheKiller/KillerPDF/stargazers)
+### 12. [KillerPDF](https://github.com/SteveTheKiller/KillerPDF) [![GitHub_Stars](https://img.shields.io/github/stars/SteveTheKiller/KillerPDF?style=social&color=white)](https://github.com/SteveTheKiller/KillerPDF/stargazers)
 - **Primary Focus**: Full-Featured Windows PDF 2.0 Editor &amp; Reader
 - **License**: GPL-3.0 | **Stack**: C#, .NET, WPF, PDF 2.0 Engine
 - **Overview**: A free and open-source desktop PDF editor and viewer for Windows. Features inline text editing, redaction, OCR, document comparison, form filling, and digital signing without recurring fees or cloud subscriptions.
@@ -179,7 +179,7 @@ Every repository below is an active open-source project, **ranked strictly by Gi
 
 ---
 
-### 13. [Zathura](https://github.com/pwmt/zathura) [![GitHub stars](https://img.shields.io/github/stars/pwmt/zathura?style=social&color=white)](https://github.com/pwmt/zathura/stargazers)
+### 13. [Zathura](https://github.com/pwmt/zathura) [![GitHub_Stars](https://img.shields.io/github/stars/pwmt/zathura?style=social&color=white)](https://github.com/pwmt/zathura/stargazers)
 - **Primary Focus**: Keyboard-Driven Minimalist Document Viewer
 - **License**: zlib | **Stack**: C, GTK+ 3, Plugin architecture (Poppler / MuPDF)
 - **Overview**: The gold standard for terminal enthusiasts and window manager power users. Features strict Vim keybindings (`j`, `k`, `/`), modular rendering backends (Poppler, MuPDF, DjVu, PostScript), automatic file reloading on compilation, and deep SyncTeX LaTeX synchronization.
@@ -187,7 +187,7 @@ Every repository below is an active open-source project, **ranked strictly by Gi
 
 ---
 
-### 14. [MuPDF](https://github.com/ArtifexSoftware/mupdf) [![GitHub stars](https://img.shields.io/github/stars/ArtifexSoftware/mupdf?style=social&color=white)](https://github.com/ArtifexSoftware/mupdf/stargazers)
+### 14. [MuPDF](https://github.com/ArtifexSoftware/mupdf) [![GitHub_Stars](https://img.shields.io/github/stars/ArtifexSoftware/mupdf?style=social&color=white)](https://github.com/ArtifexSoftware/mupdf/stargazers)
 - **Primary Focus**: Ultra-Fast C Rendering Core &amp; Cross-Platform CLI Viewer
 - **License**: AGPL-3.0 / Commercial | **Stack**: C, WebAssembly, Python (PyMuPDF)
 - **Overview**: Artifex's high-performance graphic rendering engine. Renders anti-aliased graphics with extreme fidelity, handling transparency, encryption, and interactive forms. Bundles `mutool` for rendering, page extraction, repairs, and redactions.
@@ -195,7 +195,7 @@ Every repository below is an active open-source project, **ranked strictly by Gi
 
 ---
 
-### 15. [react-pdf-viewer](https://github.com/react-pdf-viewer/react-pdf-viewer) [![GitHub stars](https://img.shields.io/github/stars/react-pdf-viewer/react-pdf-viewer?style=social&color=white)](https://github.com/react-pdf-viewer/react-pdf-viewer/stargazers)
+### 15. [react-pdf-viewer](https://github.com/react-pdf-viewer/react-pdf-viewer) [![GitHub_Stars](https://img.shields.io/github/stars/react-pdf-viewer/react-pdf-viewer?style=social&color=white)](https://github.com/react-pdf-viewer/react-pdf-viewer/stargazers)
 - **Primary Focus**: Modular React PDF Viewer Component Suite
 - **License**: Commercial / Open-Core | **Stack**: TypeScript, React, PDF.js
 - **Overview**: A production-grade React viewer with a plug-and-play plugin architecture. Provides out-of-the-box plugins for bookmarks, thumbnails, search, zoom, full screen, printing, dark mode, and open/save dialogs.
@@ -203,7 +203,7 @@ Every repository below is an active open-source project, **ranked strictly by Gi
 
 ---
 
-### 16. [Pympress](https://github.com/Cimbali/pympress) [![GitHub stars](https://img.shields.io/github/stars/Cimbali/pympress?style=social&color=white)](https://github.com/Cimbali/pympress/stargazers)
+### 16. [Pympress](https://github.com/Cimbali/pympress) [![GitHub_Stars](https://img.shields.io/github/stars/Cimbali/pympress?style=social&color=white)](https://github.com/Cimbali/pympress/stargazers)
 - **Primary Focus**: Dual-Screen PDF Presentation Reader (LaTeX Beamer)
 - **License**: GPL-2.0 | **Stack**: Python, GTK+ 3, Poppler
 - **Overview**: Specifically built for presenters using LaTeX Beamer or LibreOffice PDF slides. Displays the presentation slides on a secondary projector screen while displaying current slide, upcoming slide preview, speaker notes, and elapsed presentation timers on the presenter's laptop monitor.
@@ -211,7 +211,7 @@ Every repository below is an active open-source project, **ranked strictly by Gi
 
 ---
 
-### 17. [Okular](https://github.com/KDE/okular) [![GitHub stars](https://img.shields.io/github/stars/KDE/okular?style=social&color=white)](https://github.com/KDE/okular/stargazers)
+### 17. [Okular](https://github.com/KDE/okular) [![GitHub_Stars](https://img.shields.io/github/stars/KDE/okular?style=social&color=white)](https://github.com/KDE/okular/stargazers)
 - **Primary Focus**: Universal Multi-Format Document Viewer &amp; Annotation Suite
 - **License**: GPL-2.0 | **Stack**: C++, Qt, KDE Frameworks, Poppler
 - **Overview**: KDE’s flagship universal document viewer. Supports PDF, EPUB, DjVu, CHM, Markdown, and TIFF. Packed with annotation tools (highlights, text callouts, stamps, freehand drawing, typewriter input), text-to-speech reading, form execution, and digital certificate verification. Available on Linux, Windows, and macOS.
@@ -219,7 +219,7 @@ Every repository below is an active open-source project, **ranked strictly by Gi
 
 ---
 
-### 18. [Evince](https://github.com/GNOME/evince) [![GitHub stars](https://img.shields.io/github/stars/GNOME/evince?style=social&color=white)](https://github.com/GNOME/evince/stargazers)
+### 18. [Evince](https://github.com/GNOME/evince) [![GitHub_Stars](https://img.shields.io/github/stars/GNOME/evince?style=social&color=white)](https://github.com/GNOME/evince/stargazers)
 - **Primary Focus**: Default Clean Document Reader for the GNOME Desktop
 - **License**: GPL-2.0 | **Stack**: C, GTK+ 3, Poppler
 - **Overview**: The streamlined standard document reader bundled across major Linux distributions (Ubuntu, Fedora, Debian). Focuses on simplicity, fast page rendering, continuous scrolling, table of contents navigation, and seamless desktop theme integration.
@@ -227,7 +227,7 @@ Every repository below is an active open-source project, **ranked strictly by Gi
 
 ---
 
-### 19. [qpdfview](https://github.com/bendikro/qpdfview) [![GitHub stars](https://img.shields.io/github/stars/bendikro/qpdfview?style=social&color=white)](https://github.com/bendikro/qpdfview/stargazers)
+### 19. [qpdfview](https://github.com/bendikro/qpdfview) [![GitHub_Stars](https://img.shields.io/github/stars/bendikro/qpdfview?style=social&color=white)](https://github.com/bendikro/qpdfview/stargazers)
 - **Primary Focus**: Tabbed Lightweight Document Viewer
 - **License**: GPL-2.0 | **Stack**: C++, Qt, Poppler
 - **Overview**: A no-nonsense Qt-based tabbed document reader. Remembers per-file scroll positions and zoom levels, offers SyncTeX support, presentation modes, and multi-page layouts with minimal resource consumption.
@@ -256,7 +256,7 @@ We welcome community suggestions, updated performance benchmarks, and new open-s
 
 1. 🍴 **Fork the Repository** to your GitHub account.
 2. 🌿 **Create a Feature Branch** (`git checkout -b feature/add-new-pdf-viewer`).
-3. 📝 **Edit `README.md`**: Follow the established table or ranking structure with accurate license info, specific pricing, and star count badges.
+3. 📝 **Edit `README.md`**: Follow the established table or ranking structure with accurate license info, specific pricing, and Stars_Count badges.
 4. 🧪 **Verify Links**: Ensure all documentation and repository URLs point to official sources.
 5. 🚀 **Submit a Pull Request** with a concise description of your changes.
 
