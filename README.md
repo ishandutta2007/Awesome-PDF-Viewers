@@ -1,6 +1,6 @@
 # Awesome-PDF-Viewers
 
-# Top PDF Viewers Ecosystem
+## Top PDF Viewers Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Lightweight Rendering, Annotation Support & Browser-Native Viewing*  
