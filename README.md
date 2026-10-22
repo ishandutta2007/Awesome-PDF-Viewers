@@ -1,87 +1,291 @@
-# Awesome-PDF-Viewers
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome PDF Viewers Banner" width="100%" />
+</p>
 
-## Top PDF Viewers Ecosystem
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-PDF-Viewers/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-PDF-Viewers?style=flat-square&logo=github" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-PDF-Viewers/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-PDF-Viewers?style=flat-square&logo=github" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-PDF-Viewers/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-PDF-Viewers/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Lightweight Rendering, Annotation Support & Browser-Native Viewing*  
-**Last updated: March 2026**
+<h1 align="center">📑 Awesome PDF Viewers &amp; Readers (2026)</h1>
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **PDF Viewers**. These tools render, navigate, and annotate PDF documents — from featherweight desktop readers that open instantly to JavaScript libraries that embed PDF viewing directly into web applications without plugins.
-
-**Examples** include SumatraPDF, Okular, MuPDF, PDF.js, Sioyek, Zathura, qpdfview, Evince, Adobe Acrobat Reader, and Foxit Reader (the category leaders).
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, browser-native rendering, and transparent document handling — ideal for users who want fast, private PDF viewing without subscription bloat, and developers embedding PDF rendering into their applications.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-- **[Adobe Acrobat Reader](https://acrobat.adobe.com/)**  
-  **The reference commercial PDF viewer** with form filling, annotation, and cloud integration. **Adobe Acrobat's standard pricing runs at $12.99 per month or $155.88 annually**; Pro goes as high as **$19.99 per month** . **Trade-offs**: notoriously slow and resource-hungry, with background processes for collaboration, cloud sync, and AI features compounding performance issues . **Best for users locked into Adobe's ecosystem** needing enterprise form workflows.
-
-- **[Foxit PDF Reader](https://www.foxit.com/)**  
-  **Lightweight commercial alternative to Adobe Reader** with fast rendering, annotation tools, and form filling. Free version available with paid Pro upgrade. **Best for Windows users wanting Adobe compatibility** without Adobe's resource footprint.
-
-- **[Google Drive PDF Viewer](https://drive.google.com/)**  
-  **Browser-native PDF viewing** within Google Drive. No installation required; works across devices signed into a Google account. **Trade-offs**: requires uploading documents to Google's cloud. **Best for users already storing documents in Google Drive.**
-
-## Open-Source GitHub Projects
-
-- **[PDF.js](https://github.com/mozilla/pdf.js)**  
-  **The browser-native PDF standard** — Apache-2.0 licensed, maintained by Mozilla . **A general-purpose, web standards-based platform for parsing and rendering PDFs** using HTML5 and JavaScript, without requiring a browser plugin . **Three layers**: **Core** (binary PDF parsing and interpretation), **Display** (easier-to-use API for rendering), and **Viewer** (the UI powering Firefox's built-in PDF viewer) . **Prebuilt stable release v6.3.289** available, plus source via `git clone` . **Can be embedded via CDN** or built into custom applications . **Mozilla asks that if you embed the viewer, you re-skin it or build upon it rather than using an unmodified version** . **Best for web applications needing PDF rendering** without server-side conversion or native dependencies.
-
-- **[SumatraPDF](https://github.com/sumatrapdfreader/sumatrapdf)**  
-  **The lightweight Windows champion** — (A)GPLv3 licensed, **opens documents instantly with minimal memory use** . **Supports PDF, EPUB, MOBI, comic books (CBZ/CBR), DjVu, XPS, CHM, and images** . **Portable option** — run from a USB drive without installation . **Highly customizable** keyboard shortcuts, themes, and toolbar layouts . **Windows 7, 8, 10, and 11** with 32-bit, 64-bit, and ARM64 builds . **"One of those amazing open source programs that does everything a closed-source and/or commercial product does, but better in every way"** — described as **"small, svelte, lightweight and lightning fast"** compared to Adobe Reader . **Trade-offs**: **Windows-only** — no Mac or Linux version . **Best for Windows users wanting the fastest possible PDF viewing** with zero bloat.
-
-- **[Okular](https://github.com/KDE/okular)**  
-  **The universal document viewer from KDE** — GPL-2.0+ licensed . **Supports PDF, PostScript, DjVu, CHM, XPS, ePub, comic books, TIFF, DVI, Markdown, and more** . **Annotation capabilities rival or surpass Adobe's**: highlight, underline, strikethrough, pop-up notes, freehand drawing, text boxes, stamps, geometric shapes, and typewriter tool for forms . **Annotations stored separately from the original PDF by default**, keeping source files intact, with option to save directly into the PDF . **Tabs for multiple documents**, sidebar navigation, text selection, text-to-speech, magnifier, search, and dark mode . **Performance tuning** lets you choose low, normal, or aggressive memory usage . **Installed size under 300 MB on Windows**, smaller on Linux . **Available on Linux, Windows (Microsoft Store), and macOS (MacPorts/Homebrew)** . **No user data collection, no ads, no registration** . **Best for cross-platform users wanting a full-featured, privacy-respecting viewer** that handles more than just PDFs.
-
-- **[MuPDF](https://github.com/ArtifexSoftware/mupdf)**  
-  **The open-source software framework for viewing, converting, and manipulating PDF, XPS, and eBook documents** . **Viewers for Linux, Windows, BSD, and Android** — main `mupdf-gl` viewer has table of contents sidebar, full Unicode search, annotation editing, and redaction . **Command-line tools** via `mutool`: `draw` (render to images), `convert` (format conversion), `show` (inspect internal objects), `extract` (pull images/fonts), `clean` (fix broken files), `create`, `merge`, and `poster` . **Library in portable C**, with **JavaScript/TypeScript (WASM)**, **Java (JNI)**, and **Python (PyMuPDF)** bindings . **WebViewer is commercial-license-only** . **Best for developers** needing a PDF rendering library or command-line toolkit, and for mobile/embedded applications.
-
-- **[Sioyek](https://github.com/ahrm/sioyek)**  
-  **The PDF viewer optimized for research papers and technical documents** — designed for reading research papers, textbooks, and technical documents . **Enables jumping between references, figures, and bibliographies even in documents without embedded hyperlinks** . **Deep LaTeX integration** for synchronized navigation between source code and rendered PDF . **Highly customizable** with programmable keybindings and external script extensibility for translation or text recognition . **Best for academics and researchers** reading dense technical literature.
-
-- **[Zathura](https://github.com/pwmt/zathura)**  
-  **The minimalist keyboard-driven PDF viewer** — zlib licensed, based on the poppler rendering library and GTK+ toolkit . **"A highly customizable and functional PDF viewer"** with a **minimalistic and space-saving interface** focused on keyboard interaction . **vi-like keybindings** for navigation . **Best for Linux users** who live in the terminal and want a no-nonsense, keyboard-first viewer.
-
-- **[qpdfview](https://github.com/tsdgeos/qpdfview)**  
-  **The simple tabbed document viewer** — GPL-2.0+ licensed, uses Poppler for PDF rendering and Qt for the interface . **Outline, properties, and thumbnail panes**; scale, rotate, and fit; fullscreen and presentation views; continuous and multi-page layouts . **Persistent per-file settings** and configurable keyboard shortcuts . **DjVu and PostScript support via plugins** . **Partial annotation and form support** (PDF only, Poppler 0.20.1+) . **Best for Qt/KDE users** wanting a straightforward tabbed viewer with SyncTeX support.
-
-- **[Evince](https://github.com/GNOME/evince)**  
-  **The default document viewer for GNOME** — GPL-2.0+ licensed . **Multi-page document viewer for PDF, PostScript, and Encapsulated PostScript** . **Search, copy text, hypertext navigation, table-of-contents bookmarks, and form editing** when supported by the format . **DVI and DjVu support via additional backends** . **Best for GNOME desktop users** wanting a clean, integrated viewing experience.
-
-### Additional Strong Open-Source Options
-
-- **LibreOffice Draw** — Open-source drawing program that can open and edit foreign PDF files as graphical documents, though text is often broken into individual snippets rather than continuous text . Best for light PDF edits, not heavy viewing.
-- **Xournal++** — Handwritten note-taking and PDF annotation with pen input, pressure sensitivity, shape drawing, LaTeX integration, and PDF/PNG export. Best for tablet users annotating documents.
-- **Skim** — macOS PDF viewer with annotation, highlights, bookmarks, split view, and AppleScript support. Best for Mac users wanting a free alternative to Preview.
-- **Stirling PDF** — Self-hosted web app for merging, splitting, compressing, signing, OCR, and converting PDFs. Not a viewer per se, but a self-hosted PDF utility suite.
-
-**Frameworks for building custom systems**: Combine **PDF.js** for browser-native rendering without plugins, **SumatraPDF** for the fastest Windows viewing experience, **Okular** for cross-platform feature-rich viewing with annotations, **MuPDF** for embedding rendering into custom applications or using command-line tools, and **Sioyek** for research paper navigation — to build a PDF viewing stack tailored to your platform, annotation needs, and integration requirements.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- PDF viewers differ significantly in platform support, feature scope, and resource footprint. **SumatraPDF is Windows-only** — no Mac or Linux version . **PDF.js powers Firefox's built-in viewer** and is the standard for browser-based PDF rendering, but Mozilla requests that embedded copies be re-skinned rather than used unmodified . **Okular stores annotations separately from the original PDF by default**, keeping source files intact unless you explicitly save annotations into the PDF . **MuPDF's WebViewer is commercial-license-only** despite the library being open source . **Adobe Acrobat's subscription costs $12.99–$19.99/month** and is known for resource-heavy background processes . **LibreOffice Draw's PDF editing is limited** — text is often broken into individual snippets rather than continuous paragraphs .
-- Self-hosted open-source solutions require proper file handling, font embedding verification, and awareness that rendering fidelity varies across engines (Poppler, MuPDF, PDFium, PDF.js).
+<p align="center">
+  <strong>A curated collection of lightning-fast PDF readers, browser-native rendering engines, academic document viewers, self-hosted suites, and commercial SaaS platforms.</strong><br>
+  <em>Explore open-source alternatives to Adobe Acrobat, lightweight desktop readers, and embeddable JavaScript/React PDF libraries.</em>
+</p>
 
 ---
 
-**Made for users wanting fast, private PDF viewing and developers embedding PDF rendering into applications.**
-Let's make PDF viewing more open, lightweight, and browser-native.
+## 🧭 Table of Contents
+
+- [🎯 Overview &amp; Key Features](#-overview--key-features)
+- [📊 Sector Overview &amp; Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS &amp; Commercial Hosted Platforms](#️-saas--commercial-hosted-platforms)
+- [🚀 Open-Source GitHub Projects (Ranked by Stars)](#-open-source-github-projects-ranked-by-stars)
+- [🛠️ Architectural Stacks &amp; Framework Guide](#️-architectural-stacks--framework-guide)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📈 Star History](#-star-history)
+- [💖 Support &amp; Community](#-support--community)
+- [⚖️ Disclaimer &amp; License](#️-disclaimer--license)
+
+---
+
+## 🎯 Overview &amp; Key Features
+
+Portable Document Format (**PDF**) remains the planetary benchmark for fixed-layout digital documents. However, conventional readers have become infamous for bloatware, aggressive background telemetry, sluggish cold starts, and steep monthly subscriptions. 
+
+This repository provides an authoritative, SEO-indexed directory for developers, researchers, and everyday readers seeking:
+- ⚡ **Sub-second launch speeds** with minimal memory footprints on Windows, Linux, and macOS.
+- 🌐 **Plugin-free, browser-native rendering** using HTML5 Canvas, SVG, and WebAssembly.
+- 🔬 **Specialized academic workflows** (bi-directional LaTeX SyncTeX jumping, theorem/figure previews).
+- 🔒 **Privacy-respecting local &amp; self-hosted document utilities** with zero third-party telemetry.
+- 🖋️ **Annotation and markup workflows** supporting stylus pressure, geometrical stamps, and form filling.
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global PDF, document capture, and digital document workflow software market was valued at **$4.85 billion in 2024** and is projected to expand to **$11.35 billion by 2031**, progressing at a compound annual growth rate (**CAGR of 15.2%**). Growth is propelled by hybrid enterprise digitization, regulatory compliance standards, electronic signatures, and automated AI document parsing.
+
+### 🌐 Market Concentration & Dynamics
+
+- **Commercial &amp; Enterprise SaaS Tier (Highly Concentrated / Winner-Take-Most)**:  
+  At the enterprise and corporate contract level, the ecosystem is heavily concentrated. **Adobe Inc.** commands an estimated **70%+ market share**, capitalizing on its entrenched proprietary document ecosystem, standardized e-signature compliance (Acrobat Sign), and deep Creative Cloud integrations. A small ring of established competitors including **Foxit Software**, **Nitro Software**, and **Google Workspace** capture the majority of remaining commercial seats. High switching costs and strict enterprise security governance create substantial moats around incumbent SaaS vendors.
+
+- **Desktop Readers, Developer Libraries &amp; Self-Hosted Tier (Moderately to Highly Fragmented)**:  
+  Conversely, the developer, academic, and consumer desktop spaces are intensely fragmented. Web applications overwhelmingly standardize on Mozilla's open-source **`PDF.js`**, bypassing commercial SDK licensing. Power users and developers on Linux and Windows disproportionately gravitate toward ultra-lean standalone binaries like **`SumatraPDF`**, **`Okular`**, and **`Zathura`**, while privacy-focused self-hosters rely on community sensations like **`Stirling-PDF`**. This bifurcation reflects user resistance to SaaS subscription fatigue and a universal demand for lightweight, transparent, zero-telemetry document rendering.
+
+---
+
+## ☁️ SaaS & Commercial Hosted Platforms
+
+Below is an exhaustive comparison of leading commercial PDF SaaS platforms and cloud document suites, **sorted in descending order by parent company valuation and annual revenue**.
+
+| 🏢 Platform | 💰 Company Valuation / Revenue | 🏷️ Starting Tier Price | 🎁 Free Tier Limit / Free Trial Details | 💡 Key Strengths &amp; Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Google Drive PDF Viewer](https://drive.google.com/)** | **~$2.10 Trillion Market Cap**<br>*(Alphabet Inc. · ~$350B+ ARR)* | **$6.00 / user / month**<br>*(Google Workspace Starter, billed annually)* | **Free forever with 15 GB cloud storage** shared across Drive, Gmail, &amp; Photos; includes browser PDF viewing, text search, and commenting on files up to 500 MB | 🌐 **Browser-native convenience**: Zero-installation viewing, instant collaboration, and frictionless Google Cloud sharing across mobile &amp; desktop. |
+| **[Adobe Acrobat Reader &amp; Pro](https://acrobat.adobe.com/)** | **~$210 Billion Market Cap**<br>*(Adobe Inc. · ~$21.4B ARR)* | **$12.99 / month**<br>*(Acrobat Standard, annual billed monthly)* | **Free forever for Acrobat Reader** (desktop reading, printing, basic commenting, form filling); **7-day free trial** for Acrobat Pro (full OCR, editing, unlimited e-signatures) | 🏛️ **Enterprise industry standard**: The canonical reference for complex XFA/AcroForms, prepress color profiles, and legally binding compliance. |
+| **[Wondershare PDFelement](https://pdf.wondershare.com/)** | **~$1.20 Billion Market Cap**<br>*(Wondershare · ~$210M ARR)* | **$79.99 / year**<br>*(Individual Plan) or $129.99 perpetual* | **Free plan forever** for reading, form filling, &amp; highlighting; Pro trial has **no time limit** but watermarks saved documents and limits OCR and conversions to 3 pages | 🎨 **Balanced desktop alternative**: Robust cross-platform editing, OCR page recognition, and batch conversions without Adobe's recurring monthly cost. |
+| **[Foxit PDF Reader &amp; Editor](https://www.foxit.com/)** | **~$500 Million Valuation**<br>*(Foxit Software · ~$95M ARR)* | **$12.50 / month**<br>*($149.99 / year for PDF Editor Suite)* | **Free forever for Foxit PDF Reader** (fast viewing, text annotations, form completion); **14-day free trial** for PDF Editor Suite (full editing, AI assistant, 1 user license) | ⚡ **High-speed enterprise alternative**: Snappy rendering, rich annotation tools, and enterprise deployment options with a fraction of Adobe's memory overhead. |
+| **[Smallpdf](https://smallpdf.com/)** | **~$200 Million Valuation**<br>*(Smallpdf GmbH · ~$32M ARR)* | **$9.00 / user / month**<br>*(Pro Plan, billed annually at $108/yr)* | **Free forever plan** with access to 2 document operations/day; **7-day free trial** for Pro plan with unlimited desktop and cloud file viewing, compression, and signing | ☁️ **Cloud conversion utility**: Fast browser-based document conversions, quick annotations, and lightweight electronic signatures on any device. |
+| **[PDFgear](https://www.pdfgear.com/)** | **~$10 Million Valuation**<br>*(Bootstrapped Startup)* | **$0.00 / month**<br>*(Free desktop/web app; enterprise on request)* | **100% free forever** with no daily task caps, no file size barriers, no watermarks, unlimited conversions, and free integrated ChatGPT-driven document analysis | 🆓 **Zero-cost powerhouse**: Completely free standalone reader &amp; editor with built-in AI summarization and page management for Windows, Mac, and iOS. |
+
+---
+
+## 🚀 Open-Source GitHub Projects (Ranked by Stars)
+
+Every repository below is an active open-source project, **ranked strictly by GitHub star count in descending order**. Star badges link directly to each project's stargazers community.
+
+---
+
+### 1. [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) [![GitHub stars](https://img.shields.io/github/stars/Stirling-Tools/Stirling-PDF?style=social&color=white)](https://github.com/Stirling-Tools/Stirling-PDF/stargazers)
+- **Primary Focus**: Self-Hosted Web PDF Viewer, Editor &amp; Utility Suite
+- **License**: GPL-3.0 | **Stack**: Java, Spring Boot, Web Components, Docker
+- **Overview**: The #1 open-source PDF application on GitHub. A complete self-hosted web-based application allowing you to view, split, merge, convert, watermark, redact, sign, and OCR PDFs securely in a private container without sending data to external SaaS clouds.
+- **Best For**: Homelab enthusiasts, private enterprises, and privacy-conscious users seeking an all-in-one self-hosted PDF workbench.
+
+---
+
+### 2. [PDF.js](https://github.com/mozilla/pdf.js) [![GitHub stars](https://img.shields.io/github/stars/mozilla/pdf.js?style=social&color=white)](https://github.com/mozilla/pdf.js/stargazers)
+- **Primary Focus**: Universal HTML5 &amp; JavaScript PDF Rendering Engine
+- **License**: Apache-2.0 | **Stack**: JavaScript, HTML5 Canvas, WebAssembly
+- **Overview**: The foundational standard for browser-native PDF parsing and rendering, built and maintained by Mozilla. It directly powers Firefox's built-in PDF viewer and offers a modular three-tier architecture (Core parser, Display renderer, and complete Viewer UI) embeddable via CDN or npm into any web app.
+- **Best For**: Web developers embedding client-side document viewing without native plugins or server conversions.
+
+---
+
+### 3. [KOReader](https://github.com/koreader/koreader) [![GitHub stars](https://img.shields.io/github/stars/koreader/koreader?style=social&color=white)](https://github.com/koreader/koreader/stargazers)
+- **Primary Focus**: Document &amp; Ebook Viewer for E-Ink, Mobile &amp; Desktop
+- **License**: AGPL-3.0 | **Stack**: Lua, C, SDL, MuPDF engine
+- **Overview**: A versatile document and ebook reading engine built for E-Ink devices (Kindle, Kobo, PocketBook), Android, and desktop Linux. Features smart multi-column text reflow, OCR dictionary lookups, page margin cropping, high-contrast dark modes, and deep Calibre library integration.
+- **Best For**: Readers reading long-form technical PDFs and ebooks on e-readers, tablets, and mobile devices.
+
+---
+
+### 4. [SumatraPDF](https://github.com/sumatrapdfreader/sumatrapdf) [![GitHub stars](https://img.shields.io/github/stars/sumatrapdfreader/sumatrapdf?style=social&color=white)](https://github.com/sumatrapdfreader/sumatrapdf/stargazers)
+- **Primary Focus**: Ultra-Fast, Minimalist Windows Desktop Document Reader
+- **License**: AGPL-3.0 | **Stack**: C++, C, MuPDF engine, Win32 API
+- **Overview**: The undisputed lightweight champion on Windows. Opens massive 1,000+ page documents almost instantaneously with near-zero memory footprint. Supports PDF, EPUB, MOBI, Comic Books (CBZ/CBR), XPS, and DjVu. Offers a zero-install portable executable with customizable hotkeys and LaTeX SyncTeX support.
+- **Best For**: Windows users wanting pure, lightning-speed document reading with zero bloat or background services.
+
+---
+
+### 5. [react-pdf (Renderer)](https://github.com/diegomura/react-pdf) [![GitHub stars](https://img.shields.io/github/stars/diegomura/react-pdf?style=social&color=white)](https://github.com/diegomura/react-pdf/stargazers)
+- **Primary Focus**: React Component-Based PDF Generation &amp; Viewing
+- **License**: MIT | **Stack**: React, TypeScript, Yoga Layout, PDFKit
+- **Overview**: Declarative framework allowing developers to write React components (`<Document />`, `<Page />`, `<Text />`) that render high-fidelity, printable PDF documents in both browser and Node.js environments.
+- **Best For**: Generating programmatic PDF reports, invoices, and dynamic documents in modern React stacks.
+
+---
+
+### 6. [Xournal++](https://github.com/xournalpp/xournalpp) [![GitHub stars](https://img.shields.io/github/stars/xournalpp/xournalpp?style=social&color=white)](https://github.com/xournalpp/xournalpp/stargazers)
+- **Primary Focus**: Handwritten Note-Taking &amp; Stylus PDF Annotation
+- **License**: GPL-2.0 | **Stack**: C++, GTK+ 3, Poppler
+- **Overview**: An open-source handwriting notetaking app with first-class PDF annotation. Delivers pressure-sensitive stylus support for Wacom and touch displays, geometric shape recognition, LaTeX formula rendering, layered annotation management, and clean PDF exports.
+- **Best For**: Students, educators, and tablet users annotating slides, grading exams, and sketching math formulas on PDFs.
+
+---
+
+### 7. [react-pdf (Viewer)](https://github.com/wojtekmaj/react-pdf) [![GitHub stars](https://img.shields.io/github/stars/wojtekmaj/react-pdf?style=social&color=white)](https://github.com/wojtekmaj/react-pdf/stargazers)
+- **Primary Focus**: React Wrapper for Seamless PDF.js Embedding
+- **License**: MIT | **Stack**: React, TypeScript, PDF.js
+- **Overview**: Provides lightweight React components that display PDF documents as easily as regular images. Decouples the low-level imperative PDF.js API into clean React props (`file`, `pageNumber`, `scale`, `rotate`), allowing custom UI creation.
+- **Best For**: Front-end React applications needing bespoke, branded PDF viewing interfaces.
+
+---
+
+### 8. [Sioyek](https://github.com/ahrm/sioyek) [![GitHub stars](https://img.shields.io/github/stars/ahrm/sioyek?style=social&color=white)](https://github.com/ahrm/sioyek/stargazers)
+- **Primary Focus**: Academic Research Paper &amp; Technical Textbook Reader
+- **License**: GPL-3.0 | **Stack**: C++, Qt, MuPDF
+- **Overview**: Custom-engineered for academic reading. Intelligently identifies references, equations, and figures, allowing jump previews in floating sub-windows without losing your reading location. Features bi-directional LaTeX SyncTeX integration, smart bookmarks, portal jumps, and Vim-inspired navigation.
+- **Best For**: PhD candidates, computer scientists, researchers, and engineers digesting citation-heavy papers.
+
+---
+
+### 9. [pdfarranger](https://github.com/pdfarranger/pdfarranger) [![GitHub stars](https://img.shields.io/github/stars/pdfarranger/pdfarranger?style=social&color=white)](https://github.com/pdfarranger/pdfarranger/stargazers)
+- **Primary Focus**: Graphical Drag-and-Drop PDF Page Manager &amp; Viewer
+- **License**: GPL-3.0 | **Stack**: Python, GTK+ 3, pikepdf / PyPDF
+- **Overview**: An intuitive, lightweight desktop application designed to visually display PDF page thumbnails, rearrange page sequences, split, merge, crop, rotate, and duplicate pages with quick keyboard shortcuts.
+- **Best For**: Quick visual document restructuring without relying on heavy commercial suites.
+
+---
+
+### 10. [pdfme](https://github.com/pdfme/pdfme) [![GitHub stars](https://img.shields.io/github/stars/pdfme/pdfme?style=social&color=white)](https://github.com/pdfme/pdfme/stargazers)
+- **Primary Focus**: Web-Based WYSIWYG Template Designer, Viewer &amp; Generator
+- **License**: MIT | **Stack**: TypeScript, React, pdf-lib
+- **Overview**: A modern, lightweight PDF viewer and visual template designer. Enables drag-and-drop document design, programmatic JSON-based generation, barcode rendering, and instant browser previewing.
+- **Best For**: SaaS developers needing an embedded visual template editor for automated invoice and badge generation.
+
+---
+
+### 11. [Embed PDF Viewer](https://github.com/embedpdf/embed-pdf-viewer) [![GitHub stars](https://img.shields.io/github/stars/embedpdf/embed-pdf-viewer?style=social&color=white)](https://github.com/embedpdf/embed-pdf-viewer/stargazers)
+- **Primary Focus**: Framework-Agnostic Embeddable Web PDF Viewer
+- **License**: MIT | **Stack**: TypeScript, Web Components, PDF.js
+- **Overview**: A plug-and-play modern PDF viewing component that easily integrates with vanilla JavaScript, Vue, React, Angular, and Svelte projects, sporting clean mobile-ready toolbars and smooth page rendering.
+- **Best For**: Quick, modern UI integration across web frameworks.
+
+---
+
+### 12. [KillerPDF](https://github.com/SteveTheKiller/KillerPDF) [![GitHub stars](https://img.shields.io/github/stars/SteveTheKiller/KillerPDF?style=social&color=white)](https://github.com/SteveTheKiller/KillerPDF/stargazers)
+- **Primary Focus**: Full-Featured Windows PDF 2.0 Editor &amp; Reader
+- **License**: GPL-3.0 | **Stack**: C#, .NET, WPF, PDF 2.0 Engine
+- **Overview**: A free and open-source desktop PDF editor and viewer for Windows. Features inline text editing, redaction, OCR, document comparison, form filling, and digital signing without recurring fees or cloud subscriptions.
+- **Best For**: Windows power users looking for a direct open-source competitor to Acrobat Pro.
+
+---
+
+### 13. [Zathura](https://github.com/pwmt/zathura) [![GitHub stars](https://img.shields.io/github/stars/pwmt/zathura?style=social&color=white)](https://github.com/pwmt/zathura/stargazers)
+- **Primary Focus**: Keyboard-Driven Minimalist Document Viewer
+- **License**: zlib | **Stack**: C, GTK+ 3, Plugin architecture (Poppler / MuPDF)
+- **Overview**: The gold standard for terminal enthusiasts and window manager power users. Features strict Vim keybindings (`j`, `k`, `/`), modular rendering backends (Poppler, MuPDF, DjVu, PostScript), automatic file reloading on compilation, and deep SyncTeX LaTeX synchronization.
+- **Best For**: Linux / BSD users using i3/sway/bspwm who desire a clean, keyboard-only viewer.
+
+---
+
+### 14. [MuPDF](https://github.com/ArtifexSoftware/mupdf) [![GitHub stars](https://img.shields.io/github/stars/ArtifexSoftware/mupdf?style=social&color=white)](https://github.com/ArtifexSoftware/mupdf/stargazers)
+- **Primary Focus**: Ultra-Fast C Rendering Core &amp; Cross-Platform CLI Viewer
+- **License**: AGPL-3.0 / Commercial | **Stack**: C, WebAssembly, Python (PyMuPDF)
+- **Overview**: Artifex's high-performance graphic rendering engine. Renders anti-aliased graphics with extreme fidelity, handling transparency, encryption, and interactive forms. Bundles `mutool` for rendering, page extraction, repairs, and redactions.
+- **Best For**: System engineers needing an embedded C/WASM/Python PDF engine and developers processing high-throughput documents.
+
+---
+
+### 15. [react-pdf-viewer](https://github.com/react-pdf-viewer/react-pdf-viewer) [![GitHub stars](https://img.shields.io/github/stars/react-pdf-viewer/react-pdf-viewer?style=social&color=white)](https://github.com/react-pdf-viewer/react-pdf-viewer/stargazers)
+- **Primary Focus**: Modular React PDF Viewer Component Suite
+- **License**: Commercial / Open-Core | **Stack**: TypeScript, React, PDF.js
+- **Overview**: A production-grade React viewer with a plug-and-play plugin architecture. Provides out-of-the-box plugins for bookmarks, thumbnails, search, zoom, full screen, printing, dark mode, and open/save dialogs.
+- **Best For**: Complex enterprise web portals requiring an extensible React document viewer.
+
+---
+
+### 16. [Pympress](https://github.com/Cimbali/pympress) [![GitHub stars](https://img.shields.io/github/stars/Cimbali/pympress?style=social&color=white)](https://github.com/Cimbali/pympress/stargazers)
+- **Primary Focus**: Dual-Screen PDF Presentation Reader (LaTeX Beamer)
+- **License**: GPL-2.0 | **Stack**: Python, GTK+ 3, Poppler
+- **Overview**: Specifically built for presenters using LaTeX Beamer or LibreOffice PDF slides. Displays the presentation slides on a secondary projector screen while displaying current slide, upcoming slide preview, speaker notes, and elapsed presentation timers on the presenter's laptop monitor.
+- **Best For**: Academic lecturers, conference speakers, and presenters using dual-display configurations.
+
+---
+
+### 17. [Okular](https://github.com/KDE/okular) [![GitHub stars](https://img.shields.io/github/stars/KDE/okular?style=social&color=white)](https://github.com/KDE/okular/stargazers)
+- **Primary Focus**: Universal Multi-Format Document Viewer &amp; Annotation Suite
+- **License**: GPL-2.0 | **Stack**: C++, Qt, KDE Frameworks, Poppler
+- **Overview**: KDE’s flagship universal document viewer. Supports PDF, EPUB, DjVu, CHM, Markdown, and TIFF. Packed with annotation tools (highlights, text callouts, stamps, freehand drawing, typewriter input), text-to-speech reading, form execution, and digital certificate verification. Available on Linux, Windows, and macOS.
+- **Best For**: Cross-platform users who want enterprise-grade annotation capabilities without tracking or ads.
+
+---
+
+### 18. [Evince](https://github.com/GNOME/evince) [![GitHub stars](https://img.shields.io/github/stars/GNOME/evince?style=social&color=white)](https://github.com/GNOME/evince/stargazers)
+- **Primary Focus**: Default Clean Document Reader for the GNOME Desktop
+- **License**: GPL-2.0 | **Stack**: C, GTK+ 3, Poppler
+- **Overview**: The streamlined standard document reader bundled across major Linux distributions (Ubuntu, Fedora, Debian). Focuses on simplicity, fast page rendering, continuous scrolling, table of contents navigation, and seamless desktop theme integration.
+- **Best For**: Everyday document reading on GNOME-based Linux distributions.
+
+---
+
+### 19. [qpdfview](https://github.com/bendikro/qpdfview) [![GitHub stars](https://img.shields.io/github/stars/bendikro/qpdfview?style=social&color=white)](https://github.com/bendikro/qpdfview/stargazers)
+- **Primary Focus**: Tabbed Lightweight Document Viewer
+- **License**: GPL-2.0 | **Stack**: C++, Qt, Poppler
+- **Overview**: A no-nonsense Qt-based tabbed document reader. Remembers per-file scroll positions and zoom levels, offers SyncTeX support, presentation modes, and multi-page layouts with minimal resource consumption.
+- **Best For**: Qt desktop environments (LXQt, KDE) and multi-document tabbed reading workflows.
+
+---
+
+## 🛠️ Architectural Stacks & Framework Guide
+
+Choosing the ideal viewer depends heavily on your runtime environment and workload:
+
+| Category | Recommended Solution | Rationale &amp; Engine Stack |
+| :--- | :--- | :--- |
+| **🚀 Fastest Windows Desktop** | **SumatraPDF** | Direct Win32 rendering on top of MuPDF; cold starts in &lt;100ms. |
+| **🐧 Best Linux Terminal / Tiling WM** | **Zathura** | Vim keybindings, Poppler/MuPDF plugin backend, zero visual clutter. |
+| **🌐 Web Application Embedding** | **PDF.js / react-pdf** | 100% JavaScript/HTML5 Canvas, zero external native binaries or plugins. |
+| **🔬 Academic Papers &amp; Math** | **Sioyek** | Reference hopping, embedded citation previews, dual-screen SyncTeX. |
+| **✍️ Stylus &amp; Handwritten Notes** | **Xournal++** | Pressure-sensitive inking, GTK+ stylus input, vector shape recognition. |
+| **🔒 Enterprise / Self-Hosted Privacy** | **Stirling-PDF** | Full Dockerized utility stack for internal corporate network deployments. |
+
+---
+
+## 🤝 How to Contribute
+
+We welcome community suggestions, updated performance benchmarks, and new open-source discoveries!
+
+1. 🍴 **Fork the Repository** to your GitHub account.
+2. 🌿 **Create a Feature Branch** (`git checkout -b feature/add-new-pdf-viewer`).
+3. 📝 **Edit `README.md`**: Follow the established table or ranking structure with accurate license info, specific pricing, and star count badges.
+4. 🧪 **Verify Links**: Ensure all documentation and repository URLs point to official sources.
+5. 🚀 **Submit a Pull Request** with a concise description of your changes.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-PDF-Viewers&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-PDF-Viewers&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Community
+
+Thank you for exploring **Awesome PDF Viewers**! If you find this curated collection useful for your daily reading workflows or developer integrations, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover fast, privacy-first PDF readers.
+- 🍴 **Fork and contribute** by submitting PRs for new open-source viewers or updated benchmarks.
+- 📢 **Share with fellow engineers, researchers, and students** looking for bloat-free alternatives.
+- ☕ **Buy a coffee & sponsor ongoing curation**: Visit the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007) to support maintenance and community research.
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github-sponsors" alt="Sponsor on GitHub" />
+  </a>
+</p>
+
+---
+
+## ⚖️ Disclaimer & License
+
+- **Disclaimer**: This is an independent, community-curated directory. Product names, logos, and trademarks belong to their respective owners. Software pricing, feature tiers, and licensing terms are subject to change by their maintainers.
+- **License**: Released under the [Creative Commons Zero v1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/) Public Domain Dedication.
